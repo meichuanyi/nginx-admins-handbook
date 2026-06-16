@@ -247,7 +247,7 @@ Please see also:
 
 The HTTP protocol includes a set of methods that indicate which action to be done for a resource. The most common methods are `GET` and `POST`. But there are a few others, too:
 
-- `GET` - is used to retreive data from a server at the specified resource
+- `GET` - is used to retrieve data from a server at the specified resource
 
 - `POST` - is used to create or append a resource to an existing resource
 
@@ -303,7 +303,7 @@ Request-Line = Method SP Request-URI SP HTTP-Version CRLF
 
 | <b>METHOD</b> | <b>DESCRIPTION</b> |
 | :---:         | :---         |
-| `GET` | is used to retreive data from a server at the specified resource ([RFC 2616 - GET](https://tools.ietf.org/html/rfc2616#section-9.3)) <sup>[IETF]</sup> |
+| `GET` | is used to retrieve data from a server at the specified resource ([RFC 2616 - GET](https://tools.ietf.org/html/rfc2616#section-9.3)) <sup>[IETF]</sup> |
 
 For example, say you have an API with a `/api/v2/users` endpoint. Making a `GET` request to that endpoint should return a list of all available users.
 
